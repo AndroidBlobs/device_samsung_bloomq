@@ -1,0 +1,28 @@
+
+#
+# from device/samsung/bloomq/system.prop
+#
+#
+# system.prop for sdm845
+#
+#Cmc properties
+ro.cmc.device_type=pd
+ro.cmc.version=2.0
+#property to enable HWC for VDS
+debug.sf.enable_hwc_vds=1
+# Sub Display Orientation property
+ro.sf.sub_display_orientation=270
+#system prop for Bluetooth SOC type
+vendor.qcom.bluetooth.soc=cherokee
+#Netflix custom property
+ro.netflix.bsp_rev=Q855-16947-1
+#Status of softsim
+persist.sys.softsim.status=default,default
+persist.sys.softsim.netmode=4g
+persist.sys.softsim.type=default
+#MARs Enable GamePolicy
+sys.config.mars.game_policy=true
+persist.vendor.sensors.hal_trigger_ssr=true
+# end of device/samsung/bloomq/system.prop
+
+#
